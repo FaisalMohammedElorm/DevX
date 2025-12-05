@@ -1,0 +1,305 @@
+body {
+  font-family: "PT Sans", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: orchid;
+}
+.navbar a {
+  text-decoration: none;
+  color: black;
+  padding: 20px;
+}
+.navbar a:hover {
+  text-decoration: underline;
+}
+.btn1{
+ color: black;
+ background-color: orchid;
+ border: none;
+ transition: background 0.3s ease;
+ margin-right: 10px;
+}
+.btn1:hover {
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: indigo;
+  color: white;
+  font-weight: 300;
+}
+.btn2 {
+  height: 40px;
+  width: 70px;
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: indigo;
+  color: white;
+  font-weight: 300;
+  transition: background 0.3s ease;
+}
+.btn2:hover {
+  color: black;
+  background-color: orchid;
+  border: none;
+}
+.main-content {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 10px;
+}
+.main-content h1 {
+  font-size: 70px;
+}
+.welcome-button {
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid indigo;
+  background-color: white;
+  font-size: 15px;
+}
+.welcome-button:hover {
+  padding: 20px;
+  border-radius: 15px;
+  border: 1px solid indigo;
+  background-color: indigo;
+  color: white;
+  font-size: 15px;
+  transition: background 0.5s ease;
+}
+.subtext {
+  color: #333;
+  font-size: 30px;
+  max-width: 680px;
+}
+.get-started {
+  padding: 10px;
+  height: 60px;
+  width: 200px;
+  border-radius: 15px;
+  border: none;
+  background-color: indigo;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+ 
+}
+.get-started:hover {
+  background-color: white;
+  color: black;
+  font-weight: bolder;
+  transition: background 0.5s ease;
+}
+aside {
+  background-color: orchid;
+  height: 300px;
+}
+aside h1 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 60px;
+  font-size: 40px;
+}
+.main-category {
+  max-width: 700px;
+  display: flex;
+  margin-left: 200px;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 150px;
+}
+.icon-box {
+  /* max-width: 100px; */
+  display: flex;
+  flex-direction: row;
+}
+.main-category img {
+  height: 60px;
+  padding-top: 30px;
+}
+.icon-text {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.icon-text1 {
+  font-weight: bold;
+  font-size: 25px;
+}
+.icon-text2 {
+  font-weight: bold;
+  color: indigo;
+  padding-bottom: 10px;
+  position: relative;
+  top: -30px;
+}
+.our-story {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.our-story h1 {
+  font-size: 70px;
+}
+.our-story h2 {
+  font-size: 35px;
+}
+.our-story img {
+  border-radius: 20px;
+}
+.our-story p {
+  font-size: 25px;
+  color: #333;
+}
+.africa-text {
+  color: indigo;
+}
+.project-based {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.project-based h1 {
+  font-size: 70px;
+}
+.project-based h2 {
+  font-size: 30px;
+}
+.rectangle {
+  background-color: orchid;
+  width: 85%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  justify-content: center;
+}
+.project-based p {
+  color: #333;
+  max-width: 540px;
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+}
+.thrive {
+  margin-top: 70px;
+   background-color: orchid;
+   padding: 50px;
+}
+.thrive h1 {
+  font-size: 50px;
+}
+.thrive li p {
+  font-size: 20px;
+  color: #333;
+}
+.highlights {
+  font-weight: bold;
+}
+.side-by-side {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.laptopImg {
+  height: 400px;
+  border-radius: 20px;
+}
+.splash-img {
+  position: absolute;
+  top: 158rem;
+  right: 30px;
+}
+.career {
+  margin-top: 10rem;
+  background-color: indigo;
+  padding: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  height: 100%;
+  width: 100%;
+}
+.career h1 {
+  color: white;
+  font-size: 3rem;
+}
+.career p {
+  color: white;
+}
+.course-button {
+  border-radius: 10px;
+  height: 60px;
+  width: 120px;
+  background-color: indigo;
+  border: 3px solid white;
+  color: white;
+  font-weight: bold;
+  font-size: 15px;
+}
+.course-button:hover {
+  border-radius: 10px;
+  height: 60px;
+  width: 120px;
+  background-color: white;
+  border-width: 2px;
+  color: black;
+  font-weight: bold;
+  font-size: 15px;
+  transition: background 0.5s ease;
+}
+.group-image {
+  position: relative;
+  top: 70px;
+  right: 40px;
+  height: 250px;
+}
+.course-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  left: 50px;
+}
+.mentors {
+  margin-top: 150px;
+}
+.mentors .heading {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mentors .heading h1 {
+  font-size: 3rem;
+}
+.mentors .heading p {
+  text-align: center;
+  position: relative;
+  bottom: 30px;
+  letter-spacing: 2px;
+  color: #333;
+}
+.card {
+  width: 300px;
+  height: 350px;
+  border-radius: 10px;
+  background-color: white;
+  border:1px solid #333;
+}
+
