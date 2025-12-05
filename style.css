@@ -409,9 +409,21 @@ aside h1 {
 footer {
   background-color: #101828;
   padding: 50px;
+}
+.main-footer {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+}
+.dev-image {
+  height: 40px;
+  position: relative;
+  top: 30px;
+}
+.enquiries {
+  display: flex;
+  flex-direction: row;
+  gap: 100px;
 }
 footer p {
   color: white;
@@ -425,10 +437,35 @@ footer h1 {
 }
 .header-text-dev {
   font-weight: bold;
-  font-size: 20px
+  font-size: 30px;
 }
 footer a {
   color: white;
   text-decoration: none;
   /* text-align: center; */
+}
+.links, .socials , .terms {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+footer a:hover {
+  color: white;
+  text-decoration: underline;
+}
+.footer-line {
+  margin-top: 20px;
+  /* padding: 20px; */
+  width: 100%;
+  height: 3px;
+  background: white;
+}
+.footer-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.footer-info .icons {
+ display: flex;
+ gap: 40px;
 }
