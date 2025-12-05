@@ -294,7 +294,7 @@ aside h1 {
   bottom: 30px;
   letter-spacing: 2px;
   color: #5A5959;
-  font-weight: 800;
+  font-weight: normal;
 }
 .cards {
   display: flex;
@@ -306,6 +306,129 @@ aside h1 {
   height: 350px;
   border-radius: 10px;
   background-color: white;
-  border:1px solid #333;
+  border:1px solid #5A5959;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
-
+.card1 .ato-image {
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+.profile-name {
+  font-size: 25px;
+}
+.position {
+  position: relative;
+  bottom: 20px;
+  color: #5E00D0;
+}
+.description {
+ position: relative;
+ left: 8px;
+ font-size: 18px;
+ bottom: 30px;
+ color: #5A5959;
+ text-align: center;
+}
+.icon-container {
+  display: flex;
+  gap: 20px;
+  position: relative;
+  bottom: 30px;
+}
+.card2 .ato-image {
+  border-radius: 50%;
+  position: relative;
+  top: 5px;
+}
+.profile-name-florian {
+  font-size: 25px;
+}
+.developer-description {
+  color: #5A5959;
+  font-size: 18px;
+  position: relative;
+  left: 8px;
+  bottom: 30px;
+  text-align: center;
+}
+.paul-image {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  position: relative;
+  bottom: 5px;
+}
+.profile-name-paul {
+  font-size: 25px;
+  position: relative;
+  bottom: 15px;
+}
+.position-paul {
+  position: relative;
+  bottom: 32px;
+  color: #5E00D0;
+}
+.developer-description-paul {
+  color: #5A5959;
+  font-size: 18px;
+  position: relative;
+  left: 8px;
+  bottom: 40px;
+  text-align: center;
+}
+.marvin-image {
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  position: relative;
+  /* bottom: 5px; */
+  top: 10px;
+}
+.profile-name-marvin {
+  font-size: 25px;
+  position: relative;
+  /* bottom: 10px; */
+}
+.position-marvin {
+  position: relative;
+  bottom: 20px;
+  color: #5E00D0;
+}
+.developer-description-marvin {
+  color: #5A5959;
+  font-size: 18px;
+  position: relative;
+  left: 8px;
+  bottom: 25px;
+  text-align: center;
+}
+footer {
+  background-color: #101828;
+  padding: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+footer p {
+  color: white;
+}
+footer h1 {
+  color: white;
+}
+.devX {
+  display: flex;
+  gap: 20px;
+}
+.header-text-dev {
+  font-weight: bold;
+  font-size: 20px
+}
+footer a {
+  color: white;
+  text-decoration: none;
+  /* text-align: center; */
+}
